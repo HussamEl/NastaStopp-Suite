@@ -1,0 +1,23 @@
+# Gradle / build
+.gradle/
+.kotlin/
+build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+# Builds are published as GitHub Releases (1.9), never committed.
+dist/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+local.properties
+
+# Signing secrets (never commit)
+keystore.properties
+*.jks
+*.keystore
